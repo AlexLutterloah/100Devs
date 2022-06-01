@@ -4,7 +4,7 @@ const { MongoClient } = require("mongodb");
 const app = express();
 
 const connectionString =
-    "mongodb+srv://alex:haspass@cluster0.thhqcnr.mongodb.net/?retryWrites=true&w=majority";
+    "";
 
 //Connect to database using connection string above
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
